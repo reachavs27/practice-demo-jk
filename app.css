@@ -1,0 +1,50 @@
+/* 1. Global Page Settings */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Set fallback fonts */
+  background-color: #f4f7f6; /* Light gray page background */
+  color: #333333;            /* Dark charcoal text for readability */
+  line-height: 1.6;          /* Improve vertical reading spacing */
+  margin: 0;                 /* Strip default browser borders */
+  padding: 20px;
+}
+
+/* 2. Heading Styles */
+h1 {
+  color: #1a365d;            /* Deep blue header text */
+  font-size: 2.5rem;         /* Scalable sizing relative to base font */
+  border-bottom: 2px solid #cbd5e1; /* Accent line under the heading */
+  padding-bottom: 10px;
+}
+
+/* 3. Class Selector (Reusable component) */
+.card {
+  background-color: #ffffff; /* White background for the card body */
+  border-radius: 8px;        /* Smooth, rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle depth shadow */
+  padding: 24px;             /* Space inside the card border */
+  margin: 20px 0;            /* Space outside the card (top/bottom) */
+  max-width: 500px;          /* Prevent card from stretching too wide */
+}
+
+/* 4. ID Selector (Unique single element) */
+#featured-text {
+  font-weight: bold;
+  color: #2b6cb0;
+}
+
+/* 5. Interactive Component (Button with Hover State) */
+.btn-primary {
+  display: inline-block;
+  background-color: #3182ce; /* Primary blue button color */
+  color: #ffffff;            /* White button text */
+  padding: 10px 20px;        /* Top/Bottom and Left/Right internal spacing */
+  text-decoration: none;     /* Remove default underline if used on <a> tags */
+  border-radius: 5px;        /* Slightly rounded corners */
+  transition: background-color 0.3s ease; /* Smooth hover transition effect */
+  cursor: pointer;
+}
+
+/* Changes style when mouse hovers over the button */
+.btn-primary:hover {
+  background-color: #2b6cb0; /* Darker blue on hover */
+}
