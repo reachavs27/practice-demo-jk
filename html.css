@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card Example</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-image">
+            <!-- Placeholder profile image -->
+            <img src="https://placeholder.com" alt="Profile Picture">
+        </div>
+        <h2 class="card-name">Alex Morgan</h2>
+        <p class="card-title">Front-End Developer</p>
+        <p class="card-bio">Passionate about building clean, accessible, and highly responsive user interfaces using HTML, CSS, and JavaScript.</p>
+        <a href="#" class="card-btn">Follow Me</a>
+    </div>
+
+</body>
+</html>
